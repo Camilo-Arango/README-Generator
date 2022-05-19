@@ -67,13 +67,23 @@ async function writeToFile(answers) {
 ${answers.description}
 ## Installation Instructions
 ${answers.installation}
+## Usage Guidelines
+${answers.usage}
+## Contribution Guidelines
+${answers.contribution}
+## Test Instructions
+${answers.test}
+## Questions
+If you have any questions, please contact me at ${answers.email} or visit my github profile at [${answers.github}](https://github.com/${answers.github});
 ## Deployed Link
 [deployed link](${answers.deployedLink})
 `);
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+
+}
 
 // Function call to initialize app
 init();
