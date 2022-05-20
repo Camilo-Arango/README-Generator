@@ -46,19 +46,6 @@ const questions = [
     }
 ];
 
-inquirer
-.prompt(questions)
-.then((answers) => {
-    writeToFile(answers);
-})
-.catch((error) => {
-    if (error.isTtyError) {
-        console.error('Promps could not be rendered in current environment!')
-    } else {
-        console.error(`Something went wrong!`, error)
-    }
-});
-
 // TODO: Create a function to write README file
 async function writeToFile(answers) {
     fs.writeFileSync('./README.md', 
@@ -82,7 +69,18 @@ If you have any questions, please contact me at ${answers.email} or visit my git
 
 // TODO: Create a function to initialize app
 function init() {
-
+    inquirer
+    .prompt(questions)
+    .then((answers) => {
+        writeToFile(answers);
+    })
+    .catch((error) => {
+        if (error.isTtyError) {
+            console.error('Prompts could not be rendered in current environment!')
+        } else {
+            console.error(`Something went wrong!`, error)
+        }
+    });
 }
 
 // Function call to initialize app
