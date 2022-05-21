@@ -32,7 +32,13 @@ const questions = [
     {
         type: 'input',
         name: 'test',
-        message: 'What are the test instructions?'
+        message: 'What are the steps to test your application?'
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'What type of license do you need?:',
+        choices: ['MIT', 'GPLv2', 'Apache', 'GPLv3', 'BSD 3-Clause', 'Unlicense', 'BSD 2-Clause', 'LGPLv3', 'AGPLv3']
     },
     {
         type: 'input',
@@ -50,6 +56,9 @@ const questions = [
 async function writeToFile(answers) {
     fs.writeFileSync('./README.md', 
 `# ${answers.title}
+<sub>${answers.license}</sub>
+
+---
 ## Description
 ${answers.description}
 ## Installation Instructions
@@ -62,8 +71,8 @@ ${answers.contribution}
 ${answers.test}
 ## Questions
 If you have any questions, please contact me at ${answers.email} or visit my github profile at [${answers.github}](https://github.com/${answers.github});
-## Deployed Link
-[deployed link](${answers.deployedLink})
+## Repository Link
+[Repository Link](${answers.deployedLink})
 `);
 }
 
