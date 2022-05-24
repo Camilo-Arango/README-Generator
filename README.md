@@ -1,18 +1,18 @@
-# asdfasd
-<sub>License Type: MIT</sub>
+# Sample Title
+<sub>MIT</sub>
 
 ---
 ## Description
-asdfasdf
+Generates a README file that accurately describes the project based on user input.
 ## Installation Instructions
-asdfasdf
+N/A
 ## Usage Guidelines
-asdfasdf
+To assist with generating README files
 ## Contribution Guidelines
-asdfasdf
+N/A
 ## Test Instructions
-asdfasdf
+install inquirer and fs, and run within node
 ## Questions
-If you have any questions, please contact me at camilo94@icloud.com or visit my github profile at [camilo-arango](https://github.com/camilo-arango);
+If you have any questions, please contact me at camilo94@icloud.com or visit my github profile at [Camilo-Arango](https://github.com/Camilo-Arango);
 ## Repository Link
 [Repository Link](undefined)

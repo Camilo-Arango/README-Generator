@@ -59,6 +59,8 @@ async function writeToFile(answers) {
 <sub>${answers.license}</sub>
 
 ---
+## Video Preview
+[Tutorial Video](https://drive.google.com/file/d/1UpKD2gbVouDmSITwjOPZ0PcPns-AG71h/view)
 ## Description
 ${answers.description}
 ## Installation Instructions
@@ -70,9 +72,7 @@ ${answers.contribution}
 ## Test Instructions
 ${answers.test}
 ## Questions
-If you have any questions, please contact me at ${answers.email} or visit my github profile at [${answers.github}](https://github.com/${answers.github});
-## Repository Link
-[Repository Link](${answers.deployedLink})
+If you have any questions, please contact me at ${answers.email} or visit my github profile at [${answers.github}](https://github.com/${answers.github}).
 `);
 }
 
