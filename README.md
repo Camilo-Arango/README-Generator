@@ -2,17 +2,17 @@
 <sub>MIT</sub>
 
 ---
+## Video Preview
+[Tutorial Video](https://drive.google.com/file/d/1UpKD2gbVouDmSITwjOPZ0PcPns-AG71h/view)
 ## Description
-Generates a README file that accurately describes the project based on user input.
+Creates a README based on user input.
 ## Installation Instructions
-N/A
+Install Node, Inquirer, FS
 ## Usage Guidelines
-To assist with generating README files
+To create a README more efficiently
 ## Contribution Guidelines
 N/A
 ## Test Instructions
-install inquirer and fs, and run within node
+run the index file in terminal using node.js
 ## Questions
-If you have any questions, please contact me at camilo94@icloud.com or visit my github profile at [Camilo-Arango](https://github.com/Camilo-Arango);
-## Repository Link
-[Repository Link](undefined)
+If you have any questions, please contact me at camilo94@icloud.com or visit my github profile at [Camilo-Arango](https://github.com/Camilo-Arango).
