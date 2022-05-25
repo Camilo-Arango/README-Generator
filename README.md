@@ -1,9 +1,9 @@
-# Sample Title
+# Title
 <sub>MIT</sub>
 
 ---
 ## Table of Contents
-- [Sample Title](#sample-title)
+- [Title](#title)
   - [Table of Contents](#table-of-contents)
   - [Video-Preview](#video-preview)
   - [Description](#description)
